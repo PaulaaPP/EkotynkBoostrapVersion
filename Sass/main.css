@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-padding-top: 82px;
+}
+
+body {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Prompt", sans-serif;
+  background-color: whitesmoke;
+}
+
+nav {
+  background-color: rgb(21, 42, 56);
+  text-transform: uppercase;
+}
+nav .nav-link,
+nav .navbar-nav .nav-link.active,
+nav .fa-solid {
+  color: rgb(153, 161, 153);
+  font-size: 20px;
+}
+nav .nav-link:hover,
+nav .navbar-nav .nav-link.active:hover,
+nav .fa-solid:hover {
+  color: #596a45;
+}
+nav .active {
+  color: red;
+}/*# sourceMappingURL=main.css.map */

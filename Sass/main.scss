@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-padding-top: 82px;
+}
+
+body {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Prompt", sans-serif;
+  background-color: whitesmoke;
+}
+
+nav {
+  background-color: rgb(21, 42, 56);
+  text-transform: uppercase;
+
+  .nav-link,
+  .navbar-nav .nav-link.active,
+  .fa-solid {
+    color: rgb(153, 161, 153);
+    font-size: 20px;
+
+    &:hover {
+      color: #596a45;
+    }
+  }
+
+  .active {
+    color: red;
+  }
+}
