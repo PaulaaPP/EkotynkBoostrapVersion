@@ -17,41 +17,123 @@
     <script src="https://kit.fontawesome.com/8424dbc5a9.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar">
 
-    <header>
-
-        <nav class="navbar navbar-expand-lg py-4">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Eco<span>Tynk</span></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse ms-auto" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">O Nas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Usługi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Realizacje</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Kontakt</a>
-                        </li>
-                    </ul>
+    <nav id="navbar" class="navbar navbar-expand-lg position-fixed top-0 w-100 py-3">
+        <div class="container">
+            <a class=" navbar-brand" href="#">Eco<span>Tynk</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link  active" href="#home">Home</a>
+                    <a class="nav-link" href="#aboutus">o nas</a>
+                    <a class="nav-link" href="#services">Usługi</a>
+                    <a class="nav-link" href="#portfolio">Realizacje</a>
+                    <a class="nav-link" href="#contact">kontakt</a>
                 </div>
             </div>
-        </nav>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="hero-img">
+            <div class="hero-shadow"></div>
+            <div class="hero-heading">
+
+                <p>10 lat doświadczenia</p>
+                <h1>EcoTynk</h1>
+                <h2>Tynki <span>tradycyjne</span></h2>
+                <h4>Jesteśmy na rynku od ponad 10 lat, co pozwoliło nam zdobyć bogate doświadczenie oraz zaufanie wielu
+                    zadowolonych klientów. Nasza firma zawsze stawia na najwyższą jakość wykonywanych prac oraz
+                    terminowość ich realizacji</h4>
+
+                <a href="#aboutus" type="button" class="btn">Poznaj nas</a>
+            </div>
+
+            <a href="#aboutus"><i class="fas fa-chevron-down bounce-top"></i></a>
+        </div>
     </header>
 
-    <main></main>
+
+    <main>
+        <section id="aboutus">
+            <div class="aboutus-img">
+                <div class="aboutus-shadow"></div>
+                <!-- headind to about us -->
+                <div class="grid container">
+                    <div class="row">
+                        <div class="col-6">
+                            <span>Posznja nas</span>
+                            <h1>Profesjonalne usługi gwarancja jakości i trwałości</h1>
+                        </div>
+
+                        <div class="col-6">
+                            <p>Nasza firma tynkarska to doświadczony zespół specjalistów, którzy zajmują się
+                                profesjonalnym
+                                wykonywaniem prac tynkarskich. Nasze usługi są skierowane zarówno do klientów
+                                indywidualnych,
+                                jak i firm.
+                                <br><br>
+                                Oferujemy szeroki zakres usług tynkarskich, w tym m.in.: tynkowanie tradycyjne i
+                                maszynowe,
+                                szpachlowanie, gładzie gipsowe, malowanie oraz wiele innych. Nasze prace są
+                                wykonywane
+                                przy
+                                użyciu najwyższej jakości materiałów, dzięki czemu zapewniamy trwałość i estetykę
+                                wykonanych
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- description about us -->
+            <article>
+                <div class="aboutus-title container text-center">
+                    <span>Poznaj branżę</span>
+                    <h1>Zaufaj doświadczonym tynkarzom
+                        już od 10 lat na rynku</h1>
+                </div>
+                <div class="grid">
+                    <div class="row">
+                        <div class="col-5  aboutus-foto">
+                            <div class="card text-center" style="width: 32rem;">
+                                <img src="./img//window.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Przekonaj się, że tynki mogą być dziełem sztuki</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 aboutus-description">
+                            <h2>Tynkowanie tradycyjne i maszynowe</h2>
+                            <p>Jesteśmy na rynku od ponad 10 lat, co pozwoliło nam zdobyć bogate doświadczenie oraz
+                                zaufanie
+                                wielu zadowolonych klientów. Nasza firma zawsze stawia na najwyższą jakość wykonywanych
+                                prac
+                                oraz terminowość ich realizacji.Nasze materiały do tynkowania to gwarancja jakości i
+                                trwałości. Wybierz nasze produkty i ciesz się pięknym wykończeniem swojego domu!</p>
+
+                            <h2>Terminowość i precyzja</h2>
+                            <p>Jeśli szukasz profesjonalnej firmy tynkarskiej, która zagwarantuje Ci najwyższą jakość
+                                wykonywanych prac oraz terminowość realizacji, to zapraszamy do skorzystania z naszych
+                                usług
+                            </p>
+
+                            <h2>Najwyższej jakości materiały i kompleksowe doradztwo techniczne</h2>
+                            <p>Zapewniamy również pełne doradztwo techniczne i pomoc w wyborze odpowiedniego rodzaju
+                                tynku
+                                lub materiału, dopasowanego do indywidualnych potrzeb i wymagań klienta.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
+    </main>
 
     <footer></footer>
 
@@ -60,6 +142,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
