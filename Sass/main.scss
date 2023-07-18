@@ -185,7 +185,9 @@ section {
 
 article {
   .aboutus-title,
-  .services-title {
+  .services-title,
+  .portfolio-title,
+  .contact-title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -202,7 +204,8 @@ article {
   }
 
   .aboutus-foto,
-  .services-foto {
+  .services-foto,
+  .contact-foto {
     display: flex;
     justify-content: space-evenly;
     .card {
@@ -215,7 +218,8 @@ article {
   }
 
   .aboutus-description,
-  .services-description {
+  .services-description,
+  .contact-description {
     color: $second-color;
 
     h2 {
@@ -268,24 +272,32 @@ article {
     }
   }
 
-  // .carousel {
-  //   background-color: yellow;
-  // }
-
-  .carousel-inner {
-    width: 50%;
-    height: 80vh;
-
-    img {
-      height: 100px;
-      width: 100px;
-    }
+  .carousel {
+    padding: 5%;
   }
 
-  .foto {
-    background-color: aquamarine;
-    width: 50vh;
-    height: 50vw;
+  .space {
+    margin-top: 15%;
+    margin-bottom: 10%;
+  }
+
+  .portfolio-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
+  }
+
+  // Contact Form
+  .form-box {
+    display: grid;
+    justify-items: center;
+    color: rgb(12, 10, 10);
+    margin: 35px 0;
+
+    h3 {
+      font-size: 35px;
+      margin-bottom: 35px;
+    }
   }
 }
 // *************** MEDIA QUERIES ******************************* //
