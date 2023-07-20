@@ -17,6 +17,10 @@ body {
   background-color: whitesmoke;
 }
 
+.shadow-bg {
+  background-color: rgba(21, 42, 56, 0.863);
+}
+
 nav {
   background-color: rgb(21, 42, 56);
   text-transform: uppercase;
@@ -86,13 +90,13 @@ header .hero-heading {
   z-index: 5;
 }
 header .hero-heading p {
-  color: #afb4af;
+  color: white;
   letter-spacing: 5px;
 }
 header .hero-heading h1,
 header .hero-heading h2 {
   font-size: 85px;
-  color: rgb(56, 96, 133);
+  color: #386085;
 }
 header .hero-heading span {
   color: #597d56;
@@ -108,8 +112,8 @@ header .hero-heading h4 {
 header .btn {
   padding: 11px 30px;
   border-radius: 30px;
-  border-color: rgb(56, 96, 133);
-  background-color: rgb(56, 96, 133);
+  border-color: #386085;
+  background-color: #386085;
   color: white;
   font-size: 16px;
   margin-top: 50px;
@@ -166,11 +170,10 @@ section .row p {
   color: white;
   line-height: 30px;
 }
-
-article .aboutus-title,
-article .services-title,
-article .portfolio-title,
-article .contact-title {
+section article .aboutus-title,
+section article .services-title,
+section article .portfolio-title,
+section article .contact-title {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -180,49 +183,49 @@ article .contact-title {
   margin-top: 7%;
   color: #afb4af;
 }
-article .aboutus-title h1,
-article .services-title h1,
-article .portfolio-title h1,
-article .contact-title h1 {
-  color: rgb(56, 96, 133);
+section article .aboutus-title h1,
+section article .services-title h1,
+section article .portfolio-title h1,
+section article .contact-title h1 {
+  color: #386085;
   font-size: 25px;
   margin-top: 5px;
 }
-article .aboutus-foto,
-article .services-foto,
-article .contact-foto {
+section article .aboutus-foto,
+section article .services-foto,
+section article .contact-foto {
   display: flex;
   justify-content: space-evenly;
 }
-article .aboutus-foto .card,
-article .services-foto .card,
-article .contact-foto .card {
+section article .aboutus-foto .card,
+section article .services-foto .card,
+section article .contact-foto .card {
   box-shadow: 8px 8px 31px -13px rgb(66, 68, 90);
   padding: 20px;
 }
-article .aboutus-foto p.card-text,
-article .services-foto p.card-text,
-article .contact-foto p.card-text {
-  color: rgb(56, 96, 133);
+section article .aboutus-foto p.card-text,
+section article .services-foto p.card-text,
+section article .contact-foto p.card-text {
+  color: #386085;
 }
-article .aboutus-description,
-article .services-description,
-article .contact-description {
-  color: rgb(56, 96, 133);
+section article .aboutus-description,
+section article .services-description,
+section article .contact-description {
+  color: #386085;
 }
-article .aboutus-description h2,
-article .services-description h2,
-article .contact-description h2 {
+section article .aboutus-description h2,
+section article .services-description h2,
+section article .contact-description h2 {
   margin: 29px 0 5px 0;
   font-size: 25px;
 }
-article .aboutus-description p,
-article .services-description p,
-article .contact-description p {
+section article .aboutus-description p,
+section article .services-description p,
+section article .contact-description p {
   color: #636363;
   font-size: 16px;
 }
-article .services-end {
+section article .services-end {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -231,59 +234,145 @@ article .services-end {
   flex-direction: column;
   margin: 80px 0;
 }
-article .services-end h1 {
-  color: rgb(56, 96, 133);
+section article .services-end h1 {
+  color: #386085;
   font-size: 40px;
 }
-article .services-end p {
+section article .services-end p {
   color: #597d56;
   margin-top: 10px;
 }
-article .services-end .btn {
+section article .services-end .btn {
   padding: 11px 30px;
   border-radius: 30px;
-  border-color: rgb(56, 96, 133);
-  background-color: rgb(56, 96, 133);
+  border-color: #386085;
+  background-color: #386085;
   color: white;
   font-size: 16px;
   margin-top: 50px;
   transition: transform 0.3s ease;
 }
-article .services-end .btn:hover {
+section article .services-end .btn:hover {
   background-color: rgb(83, 150, 124);
   box-shadow: 8px 8px 46px 4px rgb(83, 150, 124);
   color: white;
   transform: scale(1.1);
 }
-article .services-end .fa-solid,
-article .services-end .fas {
+section article .services-end .fa-solid,
+section article .services-end .fas {
   padding: 5px;
   margin-right: 10px;
 }
-article .carousel {
+section article .carousel {
   padding: 5%;
 }
-article .space {
+section article .space {
   margin-top: 15%;
   margin-bottom: 10%;
 }
-article .portfolio-container {
+section article .portfolio-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 5%;
 }
-article .form-box {
-  display: grid;
-  justify-items: center;
-  color: rgb(12, 10, 10);
-  margin: 35px 0;
+section article .address-container {
+  padding: 7% 0;
 }
-article .form-box h3 {
-  font-size: 35px;
-  margin-bottom: 35px;
+section article .address-container h2 {
+  font-size: 30px;
+  color: #597d56;
+}
+section article .address-container ul {
+  list-style-type: none;
+  padding: 40px;
+}
+section article .address-container ul li {
+  padding: 17px;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+section article .address-container ul i {
+  font-size: 25px;
+  color: #386085;
+}
+section article .address-container h3 {
+  margin-bottom: 30px;
+}
+section article .form-box button {
+  background-color: #386085;
+  border-color: #386085;
+  color: white;
+}
+section article .form-box button:hover {
+  background-color: #386085;
+  color: white;
+}
+section article .form-box .btn-check:checked + .btn,
+section article .form-box .btn.active,
+section article .form-box .btn.show,
+section article .form-box .btn:first-child:active,
+section article .form-box :not(.btn-check) + .btn:active {
+  background-color: #386085;
+  border-color: #386085;
 }
 
-@media (max-width: 768px) {
+footer {
+  background: linear-gradient(180deg, rgb(21, 42, 56) 48%, rgb(39, 70, 98) 81%);
+  color: white;
+  padding-top: 25px;
+}
+footer .container {
+  color: white;
+}
+footer .container .footer-adres {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .container p {
+  font-size: 30px;
+  padding: 20px;
+}
+footer .container span {
+  padding: 10px;
+  margin-left: 10px;
+}
+footer .container span i {
+  margin-right: 5px;
+  font-size: 15px;
+}
+footer .rights {
+  background-color: #386085;
+  margin-top: 25px;
+  padding: 10px;
+}
+
+@media (max-width: 1340px) {
+  section .row.small {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    justify-items: center;
+    gap: 20px;
+  }
+}
+@media (max-width: 1020px) {
+  section .head-img.area {
+    height: 30vh;
+  }
+  section .row {
+    padding: 13% 0;
+  }
+  section .row span {
+    font-size: 18px;
+  }
+  section .row p {
+    font-size: 15px;
+  }
+  section .row h1 {
+    font-size: 45px;
+  }
+}
+@media (max-width: 834px) {
   header .hero-text {
     padding: 0;
     margin-top: 10px;
@@ -293,15 +382,35 @@ article .form-box h3 {
     font-size: 35px;
   }
   header .hero-text span {
-    color: #597d56;
+    font-size: 20px;
   }
   header .hero-text h4 {
+    letter-spacing: 0;
+    line-height: normal;
     margin-top: 10px;
     width: 50%;
     font-size: 12px;
   }
+  section .head-img {
+    height: 50vh;
+  }
+  section .head-img.area {
+    height: 30vh;
+  }
+  section .row {
+    padding: 15% 0;
+  }
+  section .row span {
+    font-size: 16px;
+  }
+  section .row p {
+    font-size: 13px;
+  }
+  section .row h1 {
+    font-size: 30px;
+  }
 }
-@media (max-width: 414px) {
+@media (max-width: 425px) {
   header .hero-heading {
     padding: 0;
     margin-top: 10px;
@@ -314,8 +423,29 @@ article .form-box h3 {
     margin-top: 65px;
   }
   header .hero-heading h4 {
+    letter-spacing: 0;
+    line-height: normal;
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 12px;
+  }
+  section .head-img {
+    height: 38%;
+  }
+  section .head-img.area {
+    height: 30vh;
+  }
+  section .row {
+    padding: 21% 0;
+  }
+  section .row p {
+    line-height: normal;
+    font-size: 11px;
+  }
+  section .row span {
+    font-size: 20px;
+  }
+  section .row h1 {
+    font-size: 23px;
   }
 }
 @media (max-width: 375px) {
@@ -329,7 +459,7 @@ article .form-box h3 {
   header .hero-heading h4 {
     letter-spacing: 0;
     line-height: normal;
-    font-size: 13px;
+    font-size: 11px;
   }
   header .btn {
     padding: 7px 21px;
@@ -340,13 +470,26 @@ article .form-box h3 {
 @media (max-width: 320px) {
   header .hero-heading h1,
   header .hero-heading h2 {
-    font-size: 25px;
+    font-size: 28px;
   }
   header h4 {
-    font-size: 12px;
+    font-size: 10px;
   }
   header .btn {
     padding: 5px 15px;
     margin-top: 24px;
+  }
+  section .row {
+    padding: 18% 0;
+  }
+  section .row p {
+    line-height: normal;
+    font-size: 11px;
+  }
+  section .row span {
+    font-size: 15px;
+  }
+  section .row h1 {
+    font-size: 20px;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -65,12 +65,12 @@
                 <!-- heeading ABOUT US -->
                 <div class="grid container">
                     <div class="row">
-                        <div class="col-6">
-                            <span>Poznja nas</span>
+                        <div class="col-5  head-title">
+                            <span>Poznaj nas</span>
                             <h1>Profesjonalne usługi gwarancja jakości i trwałości</h1>
                         </div>
 
-                        <div class="col-6">
+                        <div class="col-5">
                             <p>Nasza firma tynkarska to doświadczony zespół specjalistów, którzy zajmują się
                                 profesjonalnym
                                 wykonywaniem prac tynkarskich. Nasze usługi są skierowane zarówno do klientów
@@ -98,7 +98,7 @@
                         już od 10 lat na rynku</h1>
                 </div>
                 <div class="grid">
-                    <div class="row">
+                    <div class="row small">
                         <div class="col-5  aboutus-foto">
                             <div class="card text-center" style="width: 32rem;">
                                 <img src="./img//window.jpg" class="card-img-top" alt="...">
@@ -137,7 +137,7 @@
                     </h1>
                 </div>
                 <div class="grid">
-                    <div class="row">
+                    <div class="row small">
                         <div class="col-5  aboutus-foto">
                             <div class="card text-center" style="width: 32rem;">
                                 <img src="./img/sandbags.png" class="card-img-top" alt="...">
@@ -169,13 +169,13 @@
             <!-- SERVICES -->
             <article id="services">
                 <!-- heading -->
-                <div class="head-img">
+                <div class="head-img area">
                     <div class="head-shadow"></div>
                     <div class="grid container">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col head-title">
                                 <span>Usługi</span>
-                                <h1>Czym się zajmujemy ?</h1>
+                                <h1>Czym się zajmujemy?</h1>
                             </div>
                         </div>
                     </div>
@@ -186,7 +186,7 @@
                     <h1>Jak to wyglada w praktyce?</h1>
                 </div>
                 <div class="grid">
-                    <div class="row">
+                    <div class="row small">
                         <div class="col-5 services-foto">
                             <div class="card text-center" style="width: 32rem;">
                                 <img src="./img/worker-plaster.jpg" class="card-img-top" alt="...">
@@ -234,11 +234,11 @@
             <!-- PORTFOLIO -->
             <article id="portfolio">
                 <!-- headind to PORTFOLIO -->
-                <div class="head-img">
+                <div class="head-img area">
                     <div class="head-shadow"></div>
                     <div class="grid container">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col head-title">
                                 <span>Realizacje</span>
                                 <h1>Zobacz nasze ostnie prace</h1>
                             </div>
@@ -293,11 +293,11 @@
             <!-- CONTACT -->
             <article id="contact">
                 <!-- heading -->
-                <div class="head-img">
+                <div class="head-img area">
                     <div class="head-shadow"></div>
                     <div class="grid container">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col">
                                 <span>Kontakt</span>
                                 <h1>Skontaktuj się z nami
                                 </h1>
@@ -311,29 +311,55 @@
                     <h1>Napisz lub zadzwoń !
                     </h1>
                 </div>
-                <div class="grid">
-                    <div class="row">
-                        <div class="col-5 contact-foto">
+                <div class="grid g-3 container">
+                    <div class="row small address-container">
+                        <div class="col-6 g-start-2 text-center address-area">
+                            <div>
+                                <h2>Jesteś zainteresowany chcesz znac szczegóły?
+                                    Zadzwoń!
+                                </h2>
+                                <ul>
+                                    <i class="fa-solid fa-phone"></i>
+                                    <li>
 
+                                        <b>Telefon:</b>
+                                        +48 555 558 558
+                                    </li>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <li>
+                                        <b>Adres:</b>
+                                        Warszawa 98-252
+                                        ul. Adres 388
+                                    </li>
+                                    <i class="fa-solid fa-at"></i>
+                                    <li>
+                                        <b>E-mail:</b>
+                                        tynkiEcoo@gmail.com
+                                    </li>
+
+                                </ul>
+                            </div>
                         </div>
-                        <div class="col-6 contact-description">
+                        <div class="col-6">
                             <div class="col-lg-8 col-lg-4 form-box">
-                                <h3>Napisz do mnie</h3>
-                                <form class="animation">
-                                    <div class="contact-card">
-                                        <label for="name">Imię:</label>
-                                        <input type="text" class="name" required />
-                                    </div>
-                                    <div class="contact-card">
-                                        <label for="email">Email:</label>
-                                        <input type="email" name="email" required />
-                                    </div>
-                                    <div class="contact-card">
-                                        <label for="msg">Wiadomość</label>
-                                        <textarea type="msg" required></textarea>
-                                    </div>
-                                    <button class="btn btn-primary">Wyślij</button>
-                                </form>
+                                <h3>Napisz do nas</h3>
+
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Imię i nazwisko</label>
+                                    <input type="email" class="form-control mb-4" id="exampleFormControlInput1"
+                                        placeholder="Jan Kowalski">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="exampleFormControlInput1" class="form-label">Email adres</label>
+                                    <input type="email" class="form-control  mb-4" id="exampleFormControlInput1"
+                                        placeholder="imię@kowalski.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Treść wiadomości</label>
+                                    <textarea class="form-control  mb-4" id="exampleFormControlTextarea1"
+                                        rows="5"></textarea>
+                                </div>
+                                <button type="submit" class="btn">Wyślij</button>
                             </div>
                         </div>
 
@@ -341,12 +367,37 @@
                     </div>
                 </div>
             </article>
-
         </section>
-
     </main>
+    <footer>
+        <div class="container text-center">
+            <div class="row small">
+                <div class="col-4">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link  active" href="#home">Home</a>
+                        <a class="nav-link" href="#aboutus">o nas</a>
+                        <a class="nav-link" href="#services">Usługi</a>
+                        <a class="nav-link" href="#portfolio">Realizacje</a>
+                        <a class="nav-link" href="#contact">kontakt</a>
+                    </div>
+                </div>
+                <div class="col-6 ms-auto">
+                    <div class="footer-adres">
+                        <p>Skontaktuj się z nami</p>
 
-    <footer></footer>
+                        <span><i class="fa-solid fa-phone"></i>+48 555 558 558</span>
+                        <span> <i class="fa-solid fa-envelopes-bulk"></i>tynkiEcoo@gmail.com</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="rights text-center">
+            <span>Copyright © 2023 Eco Tynk | Powered by Eco Tynk - Boostrap</s>
+        </div>
+    </footer>
 
 
     <!-- Boostrap -->
