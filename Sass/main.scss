@@ -385,17 +385,33 @@ footer {
 // *************** MEDIA QUERIES ******************************* //
 
 @media (max-width: 1340px) {
+  section {
+    .head-img {
+      height: 45vh;
+    }
+
+    .head-img.area {
+      height: 30vh;
+    }
+  }
+
   section .row.small {
-    display: grid;
-    grid-template-rows: 1fr 2fr;
-    justify-items: center;
-    gap: 20px;
+    display: flex;
+    align-items: flex-start;
+    /* align-items: center; */
+    margin: 0 5px;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
   }
 }
 
 @media (max-width: 1020px) {
   section {
     // background img/heading in every section
+    .head-img {
+      height: 55vh;
+    }
+
     .head-img.area {
       height: 30vh;
     }
@@ -445,11 +461,14 @@ footer {
   section {
     // background img/heading in every section
     .head-img {
-      height: 50vh;
+      height: 68vh;
+      margin-bottom: 76px;
     }
+
     .head-img.area {
       height: 30vh;
     }
+
     .row {
       padding: 15% 0;
 
@@ -462,6 +481,37 @@ footer {
       }
       h1 {
         font-size: 30px;
+      }
+    }
+
+    article {
+      .aboutus-title {
+        margin-top: 0;
+      }
+      .services-description {
+        margin-bottom: 40px;
+      }
+      .services-end {
+        margin-bottom: 40px;
+
+        h1 {
+          font-size: 24px;
+        }
+
+        p {
+          font-size: 11px;
+        }
+      }
+
+      .address-container {
+        h2 {
+          font-size: 25px;
+        }
+      }
+
+      .portfolio-container {
+        grid-template-columns: 1fr;
+        margin-bottom: 5%;
       }
     }
   }
@@ -513,6 +563,25 @@ footer {
       }
       h1 {
         font-size: 23px;
+      }
+    }
+
+    .form-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  footer {
+    .container {
+      p {
+        font-size: 23px;
+      }
+    }
+    .rights {
+      span {
+        font-size: 10px;
       }
     }
   }

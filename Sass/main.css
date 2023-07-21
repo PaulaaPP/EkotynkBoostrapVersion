@@ -348,14 +348,25 @@ footer .rights {
 }
 
 @media (max-width: 1340px) {
+  section .head-img {
+    height: 45vh;
+  }
+  section .head-img.area {
+    height: 30vh;
+  }
   section .row.small {
-    display: grid;
-    grid-template-rows: 1fr 2fr;
-    justify-items: center;
-    gap: 20px;
+    display: flex;
+    align-items: flex-start;
+    /* align-items: center; */
+    margin: 0 5px;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
   }
 }
 @media (max-width: 1020px) {
+  section .head-img {
+    height: 55vh;
+  }
   section .head-img.area {
     height: 30vh;
   }
@@ -392,7 +403,8 @@ footer .rights {
     font-size: 12px;
   }
   section .head-img {
-    height: 50vh;
+    height: 68vh;
+    margin-bottom: 76px;
   }
   section .head-img.area {
     height: 30vh;
@@ -408,6 +420,28 @@ footer .rights {
   }
   section .row h1 {
     font-size: 30px;
+  }
+  section article .aboutus-title {
+    margin-top: 0;
+  }
+  section article .services-description {
+    margin-bottom: 40px;
+  }
+  section article .services-end {
+    margin-bottom: 40px;
+  }
+  section article .services-end h1 {
+    font-size: 24px;
+  }
+  section article .services-end p {
+    font-size: 11px;
+  }
+  section article .address-container h2 {
+    font-size: 25px;
+  }
+  section article .portfolio-container {
+    grid-template-columns: 1fr;
+    margin-bottom: 5%;
   }
 }
 @media (max-width: 425px) {
@@ -446,6 +480,17 @@ footer .rights {
   }
   section .row h1 {
     font-size: 23px;
+  }
+  section .form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .container p {
+    font-size: 23px;
+  }
+  footer .rights span {
+    font-size: 10px;
   }
 }
 @media (max-width: 375px) {
