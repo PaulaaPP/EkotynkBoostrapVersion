@@ -35,7 +35,7 @@ nav .fa-solid {
 nav .nav-link:hover, nav .nav-link:active,
 nav .fa-solid:hover,
 nav .fa-solid:active {
-  color: #597d56;
+  color: #4b7647;
 }
 nav .nav-link:focus,
 nav .fa-solid:focus {
@@ -43,21 +43,21 @@ nav .fa-solid:focus {
 }
 nav .fas {
   font-weight: 900;
-  color: #597d56;
+  color: #8bb55b;
   padding: 5px;
 }
 nav .navbar-nav .nav-link.active {
-  color: #597d56;
+  color: #8bb55b;
 }
 nav a.navbar-brand {
   color: white;
   font-size: 40px;
 }
 nav a.navbar-brand span {
-  color: #596a45;
+  color: #8bb55b;
 }
 nav .navbar-brand:hover {
-  color: #597d56;
+  color: #8bb55b;
 }
 
 header {
@@ -76,7 +76,7 @@ header .hero-shadow {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.26);
+  background-color: rgba(0, 0, 0, 0.42);
   z-index: -2;
 }
 header .hero-heading {
@@ -96,10 +96,10 @@ header .hero-heading p {
 header .hero-heading h1,
 header .hero-heading h2 {
   font-size: 85px;
-  color: #386085;
+  color: #6db9ff;
 }
 header .hero-heading span {
-  color: #597d56;
+  color: #8bb55b;
 }
 header .hero-heading h4 {
   margin-top: 20px;
@@ -239,7 +239,7 @@ section article .services-end h1 {
   font-size: 40px;
 }
 section article .services-end p {
-  color: #597d56;
+  color: #4b7647;
   margin-top: 10px;
 }
 section article .services-end .btn {
@@ -280,7 +280,7 @@ section article .address-container {
 }
 section article .address-container h2 {
   font-size: 30px;
-  color: #597d56;
+  color: #4b7647;
 }
 section article .address-container ul {
   list-style-type: none;

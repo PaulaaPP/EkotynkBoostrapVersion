@@ -6,5 +6,3 @@ document.addEventListener("DOMContentLoaded", function () {
     item.addEventListener("click", () => navlist.classList.remove("show"))
   );
 });
-
-console.log("lolollll");
